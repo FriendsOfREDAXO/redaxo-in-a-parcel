@@ -1,2 +1,5 @@
-# redaxo-in-a-parcel
-REDAXO frontend workflow with 📦 Parcel
+# REDAXO → 📦
+
+REDAXO frontend workflow with 📦 [Parcel](https://parceljs.org/)
+
+(New [Bimmelbam](https://github.com/FriendsOfREDAXO/redaxo-mit-bimmelbam)!)
