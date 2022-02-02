@@ -1,0 +1,11 @@
+{
+  "name": "redaxo-in-a-parcel",
+  "homepage": "https://github.com/FriendsOfREDAXO/redaxo-in-a-parcel",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {},
+  "dependencies": {},
+  "devDependencies": {
+    "parcel": "^2.2.1"
+  }
+}
