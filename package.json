@@ -3,8 +3,44 @@
   "homepage": "https://github.com/FriendsOfREDAXO/redaxo-in-a-parcel",
   "version": "1.0.0",
   "private": true,
-  "scripts": {},
-  "dependencies": {},
+  "targets": {
+    "themeAddon": {
+      "source": [
+        "./redaxo/theme/private/styles/styles.scss",
+        "./redaxo/theme/private/scripts/scripts.js"
+      ],
+      "distDir": "./redaxo/theme/public/assets"
+    },
+    "projectAddon": {
+      "source": [
+        "./redaxo/redaxo/src/addons/project/styles/styles.scss",
+        "./redaxo/redaxo/src/addons/project/scripts/scripts.js"
+      ],
+      "distDir": "./redaxo/assets/addons/project"
+    },
+    "global": {
+      "source": [
+        "./source/styles/styles.scss",
+        "./source/scripts/scripts.js"
+      ],
+      "distDir": "./redaxo/assets"
+    }
+  },
+  "multipleStaticFileCopier": [
+    {
+      "origin": "./redaxo/theme/private/static",
+      "destination": "./redaxo/theme/public/static"
+    }
+  ],
+  "browserslist": [
+    "defaults",
+    "not IE 11"
+  ],
+  "scripts": {
+    "start": "parcel serve",
+    "watch": "parcel watch",
+    "build": "parcel build"
+  },
   "dependencies": {
     "@popperjs/core": "^2.11.2",
     "bootstrap": "^5.1.3"
