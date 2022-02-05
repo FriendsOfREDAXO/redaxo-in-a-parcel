@@ -6,6 +6,8 @@
   "scripts": {},
   "dependencies": {},
   "devDependencies": {
-    "parcel": "^2.2.1"
+    "@parcel/transformer-sass": "^2.2.1",
+    "parcel": "^2.2.1",
+    "parcel-reporter-multiple-static-file-copier": "^1.0.5"
   }
 }
