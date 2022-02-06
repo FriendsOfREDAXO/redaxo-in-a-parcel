@@ -2,17 +2,16 @@
 
 **Ein Frontend-Workflow für REDAXO auf Basis von 📦 [Parcel](https://parceljs.org).**
 
-
-## Status ⏱
-
-❌ Leider noch nicht einsatzbereit.
+Status: Leider noch nicht einsatzbereit.
 
 
 ## Häufige Fragen 🙋
 
 ### Worin unterscheidet sich der Workflow von [Bimmelbam](https://github.com/FriendsOfREDAXO/redaxo-mit-bimmelbam)?
 
-…
+Bimmelbam basiert auf der Idee, das Frontend einer Website *außerhalb* von REDAXO entwickeln zu können. Dazu wurde ein sehr generischer Workflow entwickelt, der entsprechend viel Konfiguration benötigt und damit nicht immer auf Anhieb verständlich ist. Zudem ist das Setup inzwischen sehr in die Jahre gekommen.
+
+Das neue Parcel-Setup soll nun viel näher an REDAXO sein und die typischen Anforderungen der Community bedienen, die oftmals mit dem **Theme- oder Project-AddOn** arbeitet. Dabei ist Parcel eine flexible Basis, die einfach erweitert werden kann und noch immer die Idee unterstützt, das Frontend *außerhalb* von REDAXO zu entwickeln.
 
 ### Warum Parcel?
 
@@ -20,11 +19,11 @@ Parcel kombiniert mehrere Tools in einem Paket und ist für typische Anwendungsf
 
 Und falls ein Projekt wächst und komplexer wird, lässt sich Parcel einfach erweitern.
 
-### Gibt es Alternativen zu Parcel?
+### Gäbe es auch Alternativen zu Parcel?
 
 Ja, [Vite](https://vitejs.dev) ist toll und bündelt wie Parcel mehrere Tools in einem Paket.
 
-Zudem besteht immer die Möglichkeit, die notwendigen Tools nach Bedarf selbst zusammenzustecken. Schau dir beispielsweise die zahlreichen Skripte innerhalb der [package.json von Bootstrap](https://github.com/twbs/bootstrap/blob/main/package.json#L22) an.
+Zudem besteht immer die Möglichkeit, die notwendigen Tools nach Bedarf selbst zusammenzustecken. Ein gutes Beispiel dafür sind die zahlreichen Skripte innerhalb der [package.json von Bootstrap](https://github.com/twbs/bootstrap/blob/main/package.json#L22).
 
 ### Wird ein Wechsel von Bimmelbam aufwendig?
 
