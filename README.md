@@ -2,7 +2,8 @@
 
 **Ein Frontend-Workflow für REDAXO auf Basis von 📦 [Parcel](https://parceljs.org).**
 
-Status: Leider noch nicht einsatzbereit.
+Status:  
+🙅 Leider nicht praxistauglich, das Projekt wird nicht fortgeführt. Parcel bündelt zwar viele Tools in einem Paket, die wir für einen REDAXO-Frontend-Workflow nutzen könnten, aber am Ende passen Parcel und REDAXO nicht sinnvoll zueinander.
 
 
 ## Häufige Fragen 🙋
